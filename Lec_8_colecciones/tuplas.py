@@ -13,6 +13,14 @@ print(frutas[1:3])
 
 #Recorrer o iterar elementos
 
-for fruta in frutas:
-    print(fruta, end=' ')
-    
+# for fruta in frutas:
+#     print(fruta, end=' ')
+
+frutaList=list(frutas)
+print(f' La lista es: {frutaList}')
+frutaList[0]='frutilla'
+frutas = tuple(frutaList)
+print(f'La nueva tupla es: {frutas}')
+
+del frutas
+print(frutas)
