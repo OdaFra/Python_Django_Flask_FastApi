@@ -5,5 +5,6 @@ def factorial(numero):
     else:
         return numero * factorial(numero-1)
 
-resultado = factorial(10)
-print(resultado)
+numero = 5
+resultado = factorial(numero)
+print(f'El factorial de {numero} es {resultado}')
