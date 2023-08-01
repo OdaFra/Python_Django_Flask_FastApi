@@ -45,6 +45,8 @@ class Persona:
     def mostrarDetalle(self):
         print(f"Persona:{self._nombre}, {self._apellido}, {self._edad}")
 
+    def __del__(self):
+        print(f'Persona {self._nombre}, {self._apellido}')
 
 # Nuevo Objecto
 person = Persona("Naho", "Ramirez", 7)
