@@ -1,9 +1,8 @@
 from FiguraGeometrica import FiguraGeometrica
 from Color import Color
 
-class Cuadrado(FiguraGeometrica, Color):
+class Rectangulo(FiguraGeometrica, Color):
     def __init__(self, alto, ancho, color):
-        # super().__init__(alto,ancho, color)
         FiguraGeometrica.__init__(self, alto, ancho)
         Color.__init__(self, color)
     
