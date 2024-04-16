@@ -16,7 +16,7 @@ print(diccionario['OOP'])
 print(diccionario.get('IDE'))
 
 # Modificando un elemento
-diccionario['DBMS']='Database MANAGEMENT SyStem'
+diccionario['DBMS']='Database MANAGEMENT SyStem Linux'
 print(diccionario)
 
 #Recorrer elementos de un diccionario.
@@ -25,10 +25,10 @@ for termino, valor in diccionario.items():
 
 
 for termino in diccionario.keys():
-    print(termino)
+    print(f'Las llaves son: {termino}')
 
 for valor in diccionario.values():
-    print(valor)
+    print(f'Los valores son: {valor}')
     
 #comprobar la existencia de un elemento
 print('IDE' in diccionario)
