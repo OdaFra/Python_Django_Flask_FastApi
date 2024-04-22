@@ -18,11 +18,15 @@ class ClaseEjemplo:
     #Un metodo de clase si recibe un contexto de clase 
     @classmethod
     def metodo_clase(cls):
-        cls.variable_claseEjemplo = 'Google'
-        
+        cls.variable_claseEjemplo = 'Golang'
         print(f'{cls.variable_claseEjemplo}, test')
-        
     
+    #Metodo de instancia, lo cual es de contexto dinamico y puede acceder a metodos de clases como estaticos
+    def metodo_instancia(self):
+        self.metodo_clase()
+        self.metodo_estatico()
+        print(self.variable_claseEjemplo)
+        print(self.variable_de_instancia)
 
 
         
@@ -51,3 +55,8 @@ ClaseEjemplo.metodo_estatico()
 
 #Llamar al metodo de clase agregado
 ClaseEjemplo.metodo_clase()
+#Crear un objeto y acceder al metodo de clase
+miObjeto = ClaseEjemplo('Mi objeto de prueba')
+# print(miObjeto)
+miObjeto.metodo_clase()
+miObjeto.metodo_instancia()
