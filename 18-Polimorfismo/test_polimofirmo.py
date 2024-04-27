@@ -5,6 +5,7 @@ def imprimir_detalles(objeto):
     # print(objeto)
     print(type(objeto))
     print(objeto.mostrar_detalles())
+    #Validacion si el artributo pertenece al objeto por ejemplo departamento a Gerente
     if isinstance(objeto, Gerente):
         print(objeto.departamento)
 
