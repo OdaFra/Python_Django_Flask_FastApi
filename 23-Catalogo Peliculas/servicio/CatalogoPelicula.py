@@ -1,6 +1,6 @@
 import os
 class CatalogoPeliculas:
-    rutaArchivo = './22-Catalogo Peliculas/peliculas.txt'
+    rutaArchivo = './23-Catalogo Peliculas/peliculas.txt'
     
     @classmethod
     def agregarPelicula(cls, pelicula):
