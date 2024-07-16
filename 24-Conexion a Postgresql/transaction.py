@@ -14,11 +14,11 @@ try:
     cursor = conexion.cursor()
     #Insert
     # sentencia = 'INSERT INTO "Persona"(nombre, apellido, email) values (%s,%s,%s)'        
-    # valores = ('Montse', 'Iglesias','miglesias@test.com')
+    # valores = ('Pedro', 'Coronel','pc@test.com')
     # cursor.execute(sentencia, valores)
     #Update
     sentencia = 'Update "Persona" set nombre=%s, apellido=%s, email=%s where id_persona=%s'        
-    valores = ('Montse', 'Iglesias','miglesias@test.com', 8)
+    valores = ('Montse', 'Iglesias','mi@test.com', 8)
     cursor.execute(sentencia, valores)
     #set commit at the end
     conexion.commit()
