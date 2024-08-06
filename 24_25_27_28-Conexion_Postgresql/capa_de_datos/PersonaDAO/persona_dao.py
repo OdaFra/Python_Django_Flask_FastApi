@@ -67,9 +67,9 @@ if __name__ == '__main__':
     # log.debug(f'personas insertadas: {personas_insertadas}')
     
     #Update
-    # persona = Persona(2,'Nahomi', 'Ramirez Ig', 'nri@test.com')
-    # personas_actualizadas = PersonaDAO.actualizar(persona)
-    # log.debug(f'Personas actualizadas: {personas_actualizadas}')
+    persona = Persona(10,'Fernando', 'Herrera', 'fh@test.com')
+    personas_actualizadas = PersonaDAO.actualizar(persona)
+    log.debug(f'Personas actualizadas: {personas_actualizadas}')
     
     #Delete
     # persona = Persona(id_persona=13)
