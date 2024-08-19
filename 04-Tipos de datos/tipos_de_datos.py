@@ -17,3 +17,11 @@ print(type(z))
 a = True
 print(a)
 print(type(a))
+
+#Para convertir a diferentes tipos de datos son
+'''
+Entero funcion int()
+Float funcion float()
+String funcion str() -> Para cadena
+Booleano funcion bool() -> Para valores True/False
+'''

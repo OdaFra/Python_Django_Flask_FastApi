@@ -15,3 +15,5 @@ print('Suma: ', int(nro1)+int(nro2))
 # nro1 = 2
 # nro2 = 4
 # print(nro1+nro2)
+
+print(comentario*4)
